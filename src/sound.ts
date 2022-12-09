@@ -1,0 +1,45 @@
+import altar from "../assets/snd/altar.wav";
+import bosskill from "../assets/snd/bosskill.wav";
+import click from "../assets/snd/click.wav";
+import click2 from "../assets/snd/click2.wav";
+import crumble from "../assets/snd/crumble.wav";
+import cut from "../assets/snd/cut.wav";
+import death from "../assets/snd/death.wav";
+import hit from "../assets/snd/hit.wav";
+import hurt from "../assets/snd/hurt.wav";
+import hurt2 from "../assets/snd/hurt2.wav";
+import key from "../assets/snd/key.wav";
+import kill from "../assets/snd/kill.wav";
+import ladder from "../assets/snd/ladder.wav";
+import pickup from "../assets/snd/pickup.wav";
+import potion from "../assets/snd/potion.wav";
+import roll from "../assets/snd/roll.wav";
+import shoot from "../assets/snd/shoot.wav";
+import slide from "../assets/snd/slide.wav";
+import splash from "../assets/snd/splash.wav";
+import thud from "../assets/snd/thud.wav";
+import treasure from "../assets/snd/treasure.wav";
+
+export class Sound {
+  public static altar = () => new Audio(altar);
+  public static bosskill = () => new Audio(bosskill);
+  public static click1 = () => new Audio(click);
+  public static click2 = () => new Audio(click2);
+  public static hit = () => new Audio(hit);
+  public static hurt = () => new Audio(hurt);
+  public static hurt2 = () => new Audio(hurt2);
+  public static kill = () => new Audio(kill);
+  public static death = () => new Audio(death);
+  public static splash = () => new Audio(splash);
+  public static key = () => new Audio(key);
+  public static pickup = () => new Audio(pickup);
+  public static roll = () => new Audio(roll);
+  public static shoot = () => new Audio(shoot);
+  public static treasure = () => new Audio(treasure);
+  public static crumble = () => new Audio(crumble);
+  public static slide = () => new Audio(slide);
+  public static cut = () => new Audio(cut);
+  public static thud = () => new Audio(thud);
+  public static ladder = () => new Audio(ladder);
+  public static potion = () => new Audio(potion);
+}
